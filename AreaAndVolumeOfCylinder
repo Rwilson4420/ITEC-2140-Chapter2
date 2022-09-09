@@ -1,0 +1,22 @@
+/**
+ *@class: BaseAreaAndVolumeOfCylinder
+ *@author: Robert Wilson
+ *date: August 8,2022
+ *@version: 1.0
+ * dsescription: this program will display My first and last name and also the date.
+ */
+ important java.until.Scanner;
+ public class BaseAreaAndVolumeOfCylinder{
+  public static void main(String [] args){
+    Scanner input = new Scanner (System.in);
+    System.out.print("Enter radius of base cricle : ");
+    double radius = input.nextDouble();
+    double PI = 3.1416
+    double BaseArea = radius * radius * PI;
+    System.out.println("Base are of Clyinder is : " + BaseArea);
+    System.out.pritnln("Enter height of Cylinder: ");
+    double height = input.nextDouble();
+    double volumeCylinder = areaof Cylinder = height;
+    System.out.println("Volume of the Cylinder is : " + volumeCylinder);
+    }
+  }  
